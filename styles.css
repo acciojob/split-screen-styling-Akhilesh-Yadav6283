@@ -1,1 +1,32 @@
 /*  your css code here. If applicable */
+.main-container{
+    width:100vw;
+	height:100vh;
+	display:grid;
+	grid-template-columns:1fr 3fr 1fr;
+	grid-template-rows:  1fr 3fr 1fr;
+	padding:1em;
+}
+.nav{
+	background-color:#D7E8D4;
+	min-width:100/6vw;
+	grid-row:1/-1;
+}
+.header{
+	background-color:yellowgreen;
+	grid-column:2/-1
+}
+.article{
+	background-color:#ffffff;
+	min-height:60vh;
+	
+}
+.aside{
+	background-color:#fdecec;
+	
+}
+.footer{
+	background-color:yellowgreen;
+	grid-column:2/-1;
+	min-height:100/5vh;
+}
